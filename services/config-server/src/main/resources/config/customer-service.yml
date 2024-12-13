@@ -1,0 +1,13 @@
+spring:
+data:
+  mongodb:
+#    uri: localhost://jimbaran:P4ssw0rd@mongodb:27017/customer?authSource=admin
+    username: myuser
+    password: N0tSecure!
+    host: localhost
+    port: 27017
+    database: customer
+    authentication-database: admin
+    authSource: admin
+server:
+  port: 8090
