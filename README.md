@@ -5,7 +5,7 @@ A modern, scalable e-commerce backend system built with Spring Boot microservice
 ## Architecture Overview
 
 ### System Architecture
-![E-commerce Microservices Architecture](architecture.png)
+![E-commerce Microservices Architecture](https://github.com/rhadiwib/e-commerce-backend/blob/main/diagrams/screenshot/arch_ecommerce_ms.png)
 
 The application is built using a microservices architecture with the following components:
 
@@ -76,7 +76,7 @@ flowchart TB
 ```
 
 ### Event-Driven Architecture
-![Kafka Integration](kafka-integration.png)
+![Kafka Integration](https://github.com/rhadiwib/e-commerce-backend/blob/main/diagrams/screenshot/kafka_async_flow.png)
 
 The system uses Apache Kafka for asynchronous communication between services:
 - Order and Payment events are published to dedicated Kafka topics
@@ -84,7 +84,7 @@ The system uses Apache Kafka for asynchronous communication between services:
 - Ensures loose coupling and scalability
 
 ### Domain Model
-![Domain Model](domain-model.png)
+![Domain Model](https://github.com/rhadiwib/e-commerce-backend/blob/main/diagrams/screenshot/class_domain_diagram.png)
 
 ## Key Features
 
@@ -186,10 +186,6 @@ Once the services are running, you can access the API documentation at:
 - Order Service: 8083
 - Payment Service: 8084
 - Notification Service: 8085
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
